@@ -1,6 +1,13 @@
 # mundo
 Teste do repositório
-print("Hello Word, welcome to Github") 
-print("Como você está? ") 
-if " estou bem, estou ótimo, " exibe print(" Que maravilha, fico feliz em saber") 
-if " estou mal, estou péssimo, estou ruim," exibe print(" Não fique assim, Ergua a cabeça e tenta de novo, tenha um ótimo dia") 
+print("Hello World, welcome to GitHub!")
+print("Como você está?")
+
+resposta = input().lower()
+
+if resposta == "bem":
+    print("Que maravilha, fico feliz em saber!")
+elif resposta == "mal":
+    print("Não fique assim, erga a cabeça e tente novamente. Tenha um ótimo dia!")
+else:
+    print("Obrigado por responder. Espero que tudo melhore!")
